@@ -1,3 +1,2 @@
-console.log(`ola ${Date()}`)
+console.log(` index.js loaded\n ${Date()}`)
 
-data.innerHTML=Date()
