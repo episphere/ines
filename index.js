@@ -5,4 +5,4 @@ setInterval(function(){
     helloWorld.innerHTML=`at <span style="font-size:x-large;color:darkgreen;background-color:darkgreen">${new Date().toLocaleTimeString()}</span>`
 },1000)
 
-System.out.print('lala')
+console.log('lala')
