@@ -4,3 +4,5 @@ console.log(` index.js loaded\n ${Date()}`)
 setInterval(function(){
     helloWorld.innerHTML=`at <span style="font-size:x-large;color:darkgreen;background-color:yellow">${new Date().toLocaleTimeString()}</span>`
 },1000)
+let xx=document.getElementById('xx')
+xx.onkeyup=function(ev){console.log(x.value)}
